@@ -1,0 +1,48 @@
+body{
+    background-color: #D82727;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form{
+    width: 400px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.form{
+    margin: 20px;
+    text-align: center;
+}
+
+.form > input {
+    margin: 10px;
+    padding: 0;
+    height: 30px;
+    width: 340px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border: none;
+} 
+
+.btn{
+    margin: 10px;
+    padding: 0;
+    height: 40px;
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: #D82727;
+    color: white;
+}
+
+#link{
+    text-decoration: none;
+    color: white;
+}
